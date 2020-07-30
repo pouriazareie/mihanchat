@@ -1,29 +1,4 @@
 
-function sleep(delay)
-{
-    var start = new Date().getTime();
-    while (new Date().getTime() < start + delay);
-}
-
-
-	if ($('#topcmm-123flashchat-main-message-input').length) {
-
-		 var timer = setInterval(function() { 
-all();
- }, 1000);
-	
-	}
-	
-	else{
-		
-			sleep(10000);
-
-}
-
-
-
-
-
 
 $("#topcmm-123flashchat-main-messageview").empty();
 modeAdmin="span.topcmm-123flashchat-common-chat-panel-single-box-text-area > span.topcmm-123flashchat-common-chat-panel-single-box-chat-text-color > span";
@@ -93,3 +68,6 @@ $("#topcmm-123flashchat-main-messageview").empty();
 /*=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#*/
 }
 }
+ var timer = setInterval(function() { 
+all();
+ }, 1000);
